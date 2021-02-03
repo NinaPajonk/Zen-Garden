@@ -1,56 +1,76 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #111;
-    padding-top: 150px;
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #111;
+  padding-top: 150px;
 }
-.lightsaber{
-    position: relative;
-    color: #fff;
-}
-
-.lightsaber input[type="checkbox"]{
-    opacity: 0;
-
-}
-.lightsaber label {
-    cursor: pointer;
-    display: block;
-    height: 50px;
-    width: 15px;
-    background: #ddd;
-    border-bottom: solid 4px gray;
-    border-top: solid 4px gray;
-    border-radius: 5px;
-
+section[name="lightsaber"] {
+  position: relative;
+  color: #fff;
 }
 
-.lightsaber .plasma {
-    position: absolute;
-    bottom: 64px;
-    left: 3px;
-    border-radius: 12px 12px 0 0;
-    background: rgb(135, 220, 90);
-    background: linear-gradient(
-    to right, 
-    rgb(135, 220, 90) 30%, 
-    rgb(254, 254, 254) 30%, 
-    rgb(254, 254, 254) 50%, 
-    rgb(254, 254, 254) 50%, 
-    rgb(135, 220, 90) 100%);
-    height: 0px;
-    width: 10px;
-    filter: blur(1px);
-    transition: 0.3 height;
-    
+section[name="lightsaber"] input[type="checkbox"] {
+  opacity: 0;
+}
+section[name="lightsaber"] label {
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  width: 15px;
+  background: #ddd;
+  border-bottom: solid 4px gray;
+  border-top: solid 4px gray;
+  border-radius: 5px;
 }
 
-.lightsaber input[type="checkbox"]:checked ~ .plasma{
-    height: 250px;
+section[name="lightsaber"] label[name="plasma"] {
+  position: absolute;
+  bottom: 64px;
+  left: 3px;
+  border-radius: 12px 12px 0 0;
+  background: rgb(135, 220, 90);
+  background: linear-gradient(
+    to right,
+    rgb(135, 220, 90) 30%,
+    rgb(254, 254, 254) 30%,
+    rgb(254, 254, 254) 50%,
+    rgb(254, 254, 254) 50%,
+    rgb(135, 220, 90) 100%
+  );
+  height: 0px;
+  width: 10px;
+  filter: blur(1px);
+  transition: 0.3 height;
+}
+
+section[name="lightsaber"]
+  input[type="checkbox"]:checked
+  ~ label[name="plasma"] {
+  height: 250px;
+}
+
+/* colorPicker */
+input[data="Blue"]:checked ~ section[name="lightsaber"] label[name="plasma"] {
+  background: rgb(135, 220, 90);
+  background: linear-gradient(
+    to right,
+    rgb(38, 2, 54) 30%,
+    rgb(0, 0, 0) 30%,
+    rgb(255, 5, 5) 50%,
+    rgb(207, 49, 49) 50%,
+    rgb(255, 0, 0) 100%
+  );
+}
+input[data="Orange"]:checked {
+}
+input[data="Red"] :checked {
+}
+input[data="Green"] :checked {
+}
+input[data="Yellow"] :checked {
 }
