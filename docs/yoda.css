@@ -576,3 +576,17 @@ body:hover > header {
   transform: translateY(-7px);
   animation: none;
 }
+/* ...................................add dark modus css.................................. */
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
