@@ -1,0 +1,220 @@
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Vasilis en Sanne">
+
+  <title>Eindopdracht - CSS to the Rescue 20/21</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira+Condensed:wght@100&family=Saira:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+</head>
+
+<body>
+  <div class="helaas-een-wrapper">
+    <header>
+      <a href="https://github.com/cmda-minor-web/css-to-the-rescue-2021">CSS to the Rescue&nbsp;<span>20/</span>21</a>
+
+      <form>
+        <input type="checkbox" name="party-pooper" id="party-pooper">
+        <label for="party-pooper">party pooper <span>mode</span></label>
+      </form>
+    </header>
+
+    <main>
+      <h1>Eindopdracht</h1>
+      <p>Er zijn 3 opdrachten waar je uit kunt kiezen:</p>
+      <ul>
+        <li><a href="#cssZenGarden">CSS Zen Garden - 2021 version</a></li>
+        <li><a href="#rubriksKubus">Maak een 3D Rubrik's kubus</a></li>
+        <li>Doe een eigen voorstel</li>
+      </ul>
+
+      De <a href="beoordelingsformulier.html">beoordelingscriteria voor de eindopdracht</a> op een rijte.
+
+      <h2 id="cssZenGarden">CSS Zen Garden - 2021 version</h2>
+      <p><a href="http://www.csszengarden.com/">CSS Zen Garden</a> was 20 jaar geleden een initiatief om mogelijkheden van CSS te exploreren: hoe kun je CSS inzetten om vaststaande HTML om te toveren tot toen een visueel meesterwerk. Aan jou dezelfde taak, maar dan anno nu.</p>
+      
+      <details>
+        <summary aria-label="meer over CSS Zen Garden - 2021 version opdracht">meer</summary>
+        <h3>Het startpunt</h3>
+        <p>Selecteer je HTML:</p>
+        <ul>
+          <li><a href="https://github.com/cmda-minor-web/css-to-the-rescue-2021/blob/master/docs/assignments/menu.html">Responsive restaurant menu</a> (de ruwe html)</li>
+          <li><a href="https://github.com/cmda-minor-web/css-to-the-rescue-2021/blob/master/docs/assignments/print-article.html">Responsive art-direction voor een pagina in een digitaal tijdschrift</a> (de ruwe html)</li>
+        </ul>
+        
+        <h3>Voeg een context toe</h3>
+        <p>Houd rekening met i.i.g. één van de volgende contexten:</p>
+        <ul>
+          <li>print-stylesheet</li>
+          <li>prefers-reduced-motion</li>
+          <li>prefers-color-scheme</li>
+          <li>input type (pointer)</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">kies er zelf één</a></li>
+        </ul>
+        
+        <h3>Kies twee eisen</h3>
+        <p>Laat je inspireren door je te houden aan minimaal twee eisen:</p>
+        <ul>
+          <li>SVG toepassen in shapes, masks én filters</li>
+          <li>Twee kleuren</li>
+          <li>Geen vierkanten, rechthoeken, cirkels en driehoeken</li>
+          <li>Voldoen aan <a href="https://www.w3.org/TR/WCAG20/#guidelines">Level AAA van de WCAG</a>.</li>
+          <li>Responsive zonder media queries</li>
+          <li>Extreme optimalisatie (voldaan indien meer dan 73% minder Kb)</li>
+        </ul>
+
+        <h3>De Selector First CSS & No JS aanpak</h3>
+        <ol>
+          <li>
+            <p>Het <strong>eerste uitgangspunt</strong> is dat je <em>geen</em> ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de <a href="https://css-tricks.com/almanac/">vele CSS selectoren</a> die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren. En als het echt echt echt niet anders kan, heb je permissie om een paar classes toe te voegen.</p>
+          </li>
+          <li>
+            <p>Een <strong>tweede uitgangspunt</strong> is dat je <em>geen</em> JS gebruikt (i.i.g. zo min mogelijk - het vak heet niet voor niets CSS to the Rescue). Wat met CSS en/of HTML kan, mag je <em>niet</em> met JS realiseren en het is <em>niet</em> toegestaan om CSS properties met JS aan te passen. We vinden het daarentegen wel interessant dat je verkent waar JS en CSS elkaar raken en versterken, bijv. het <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">uitlezen en aanpassen van CSS custom properties</a>, of bijv. de <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationstart_event">animationstart</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationcancel_event">animationcancel</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationiteration_event">animationiteration</a> en <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event">animationend</a> events gebruiken.</p>
+          </li>
+        </ol>
+
+        <h3>Laat je inspireren</h3>
+        <p>Je hoeft niet zelf iets te ontwerpen. Je kan je laten inspireren door een bestaand kunstwerk. Of een poster. Of een bijzondere magazine layout. Je kan natuurlijk beginnen met het letterlijk namaken, maar denk vooral ook na over hoe je het meer <strong>webby</strong> kunt maken. De thema’s uit de eerste oefening kunnen je daar goed bij helpen: </p>
+
+        <ul>
+          <li>Hoe past het werk zich aan aan verschillende contexten, zoals schermgrootte, <em>reduced motion</em>, print, en zelfs screenreaders?</li>
+          <li>Kan je het generieker, of flexibeler, of gewoon toffer maken door <em>stiekem te programmeren met CSS?</em></li>
+          <li>Kan je het ontwerp wellicht tot leven wekken door gebruik te makenvan de interactieve selectors? Wellicht kan je er zelfs een formulier van maken!</li>
+          <li>Experimenteer eens met layout-modules die je (nog) niet goed kent! Shapes! Multi-column! Grid-areas! </li>
+          <li>Zijn er effecten in CSS die de originele artiesten niet tot hun beschikking hadden? Gebruik ze!</li>
+        </ul>
+      </details>
+
+
+      <h2 id="rubriksKubus">Maak een 3D Rubrik's kubus</h2>
+      <p><a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube">Ernő Rubik</a> bedacht in 1974 de puzzel die de mensheid sindsdien boeit - de kubus. Aan jouw de opdracht om een digitale 3D versie van de kubus te maken. Net als de kubus zelf een <strong>analytische en wiskundige</strong> breinbreker.</p>
+
+      <details>
+        <summary aria-label="meer over de Rubrik's kubis opdracht">meer</summary>
+        <h3>Mogelijke features</h3>
+        <p>Je startpunt is het maken van een kubus in 3D. Daarna kun je o.a. aan de volgende features denken:</p>
+        <ul>
+          <li>De kubus animeren als instructie hoe een kubus is op te lossen.</li>
+          <li>De mogelijkheid om het thema van de kubus te veranderen.</li>
+          <li>De kubus is te bedienen (hij werkt).</li>
+          <li>De mogelijkheid om het aantal blokjes van de kubus aan te passen (bijv. 2x2x2, 4x4x4 ... 13x13x13 of de ultieme uitdaging een kubus met ongelijke zijden bijv 2x2x4).</li>
+        </ul>
+
+        <p><img src="img/kubus.jpg" alt="een stapeltje kubussen ter inspiratie"></p>
+
+        <h3>De Selector First CSS & No JS aanpak</h3>
+        <ol>
+          <li>
+            <p>Het <strong>eerste uitgangspunt</strong> is dat je <em>geen</em> ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de <a href="https://css-tricks.com/almanac/">vele CSS selectoren</a> die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren. En als het echt echt echt niet anders kan, heb je permissie om een paar classes toe te voegen.</p>
+          </li>
+          <li>
+            <p>Een <strong>tweede uitgangspunt</strong> is dat je <em>geen</em> JS gebruikt (i.i.g. zo min mogelijk - het vak heet niet voor niets CSS to the Rescue). Wat met CSS en/of HTML kan, mag je <em>niet</em> met JS realiseren en het is <em>niet</em> toegestaan om CSS properties met JS aan te passen. We vinden het daarentegen wel interessant dat je verkent waar JS en CSS elkaar raken en versterken, bijv. het <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties">uitlezen en aanpassen van CSS custom properties</a>, of bijv. de <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationstart_event">animationstart</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationcancel_event">animationcancel</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationiteration_event">animationiteration</a> en <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event">animationend</a> events gebruiken.</p>
+          </li>
+        </ol>
+      </details>
+
+      <h2>Opleveren &amp; Eindgesprek</h2>
+      <p>Dit opleveren:</p>
+      <ul>
+        <li>De website</li>
+        <li>Een 'procesverslag'</li>
+      </ul>
+
+      <details>
+        <summary aria-label="meer over opleveren en eindgesprek">meer</summary>
+        <p>Je werkt het hele vak aan de eindopdracht. Geen tussenopdrachten. Ondertussen wel je proces bespreken en vastleggen:</p>
+        <ul>
+          <li><strong>Deadline:</strong> de dag voor het eindgesprek voor 18:00 uur.</li>
+          <li>De gesprekken zijn verdeeld over twee weken. Je <strong>schrijft jezelf in</strong> voor een slot (en bepaalt daarmee je deadline).</li>
+          <li>Je levert <strong> je werk en procesverslag</strong> in op GitHub <strong>én</strong> in een zip <a href="https://dlo.mijnhva.nl/d2l/lms/dropbox/admin/folders_manage.d2l?ou=275640">op DLO</a>.</li>
+          <li><strong>Tijdens het gesprek</strong> laat je je website zien, vertel je waar je blij mee bent, wat lastig is/was en stelt de docent vragen over je code.</li>
+        </ul>
+        <p><strong>Herkansing</strong> - idem (indien nodig).</p>
+      </details>
+
+      <h2>Procesverslag (README.md)</h2>
+      <p>Als <strong>voorbereiding</strong> op het gesprek elke vrijdag <strong>vul je</strong> je <strong>README.md</strong> aan en zet die samen met je werk <strong>op GitHub</strong>. Aan het eind van het vak heb je dan gelijk je procesverslag.</p>
+
+      <details>
+        <summary aria-label="meer over het procesverslag">meer</summary>
+        <h3>Week 1 - Je plan</h3>
+        <ul>
+          <li><strong>Welke opdracht</strong> ga je doen en voor welke opties kies je qua uitwerking.</li>
+          <li>Met <strong>welke CSS-technieken</strong> ga je als eerste aan de slag.</li>
+          <li>Waar liggen je (grootste) <strong>uitdagingen</strong>.</li>
+          <li>Neem <strong>schets(en)</strong> van je ontwerp op.</li>
+          <li>Maak wellicht ook al een eerste breakdown-schets.</li>
+        </ul>
+
+        <h3>Week 2 &amp; 3 - Voortgang</h3>
+        <ul>
+          <li>Laat <strong>je voortgang</strong> zien ('praatje met plaatjes').</li>
+          <li>Wat ging er <strong>soepel</strong> en wat was <strong>lastig</strong>.</li>
+          <li>Welke experimenten heb je gedaan die die <strong>'mislukt'</strong> zijn.</li>
+          <li>Heb je nieuwe <strong>inzichten</strong> hoe je de kracht CSS kunt benutten (of juist niet).</li>
+          <li>Neem <strong>wijzigingen</strong> aan je 1e plan op.</li>
+          <li>Waar liggen je (nieuwe) <strong>uitdagingen</strong> voor komende week.</li>
+        </ul>
+
+        <h3>Week 4 - Afronding</h3>
+          <ul>
+            <li>Bespreek <strong>je eindresultaat</strong>. ('praatje met plaatjes').</li>
+            <li>Wat ging er <strong> 	soepel </strong>, wat was <strong>lastig</strong> en waar ben je <strong>trots</strong> op.</li>
+            <li>Welke experimenten heb je gedaan die die <strong>'mislukt'</strong> zijn.</li>
+            <li>Heb je nieuwe <strong>inzichten</strong> hoe je de kracht CSS kunt benutten (of juist niet).</li>
+            <li>Waar wil je <strong>meer</strong> mee gaan doen.</li>
+          </ul>
+      </details>
+
+      <h2>Planning &amp; begeleiding</h2>
+      <p><a href="https://teams.microsoft.com/l/file/6E37FED4-91C7-4293-A7C4-C0309D24634D?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F03%20-%20CSS%20to%20the%20Rescue%2FCSS%20to%20the%20rescue%20-%20Indeling%20%26%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:84bbb4a3b90d40a6b434649359689744@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3"><strong>De planning</strong></a> vind je in de <a href="https://teams.microsoft.com/l/file/6E37FED4-91C7-4293-A7C4-C0309D24634D?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F03%20-%20CSS%20to%20the%20Rescue%2FCSS%20to%20the%20rescue%20-%20Indeling%20%26%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:84bbb4a3b90d40a6b434649359689744@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3">Excel in Teams</a>. De <strong>docenten</strong> <em>lopen</em> af en toe langs zijn buiten de contactmomenten <strong>in sluimerstand</strong> aanwezig. Geef een seintje (in het Teams channel van het vak) als je een vraag hebt - of trots je werk wilt laten zien. Dan starten we op.</p>
+
+      <h3>Docenten</h3>
+      <ul class="docenten">
+        <li>
+          <a href="https://github.com/leoniesmits">
+            <img src="img/leonie.png" alt="docent: Leonie Smits">
+            Leonie Smits
+          </a>
+        </li>
+        <li>
+          <a href="https://www.sinds1971.nl/css3hooft/index.html">
+            <img src="img/sanne.png" alt="docent: Sanne 't Hooft">
+            Sanne 't&nbsp;Hooft
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/iSirThijs">
+            <img src="img/thijs.png" alt="docent: Thijs Spijker">
+            Thijs Spijker
+          </a>
+        </li>
+        <li>
+          <a href="https://www.vasilis.nl">
+            <img src="img/vasilis.png" alt="docent: Vasilis van Gemert">
+            Vasilis van&nbsp;Gemert
+          </a>
+        </li>
+      </ul>
+
+      
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="https://github.com/cmda-minor-web/css-to-the-rescue-2021" class="home">CSS ttR 20/21</a></li>
+        <li><a href="https://teams.microsoft.com/l/channel/19%3a84bbb4a3b90d40a6b434649359689744%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7" class="classroom" target="_blank" rel="noopener noreferrer">Teams</a></li>
+        <li><a href="https://dlo.mijnhva.nl/d2l/home/275640" class="uploadbox" target="_blank" rel="noopener noreferrer">DLO</a></li>
+        <li><a href="https://teams.microsoft.com/l/file/6E37FED4-91C7-4293-A7C4-C0309D24634D?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F03%20-%20CSS%20to%20the%20Rescue%2FCSS%20to%20the%20rescue%20-%20Indeling%20%26%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:84bbb4a3b90d40a6b434649359689744@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3" class="planning" target="_blank" rel="noopener noreferrer">Indeling &amp; Plannning</a></li>
+      </ul>
+    </footer>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
