@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    padding-top: 150px;
+
+}
+.lightsaber{
+    position: relative;
+    color: #fff;
+}
+
+.lightsaber input[type="checkbox"]{
+    opacity: 0;
+
+}
+.lightsaber label {
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    width: 15px;
+    background: #ddd;
+    border-bottom: solid 4px gray;
+    border-top: solid 4px gray;
+    border-radius: 5px;
+
+}
+
+.lightsaber .plasma {
+    position: absolute;
+    bottom: 64px;
+    left: 3px;
+    border-radius: 12px 12px 0 0;
+    background: rgb(135, 220, 90);
+    background: linear-gradient(
+    to right, 
+    rgb(135, 220, 90) 30%, 
+    rgb(254, 254, 254) 30%, 
+    rgb(254, 254, 254) 50%, 
+    rgb(254, 254, 254) 50%, 
+    rgb(135, 220, 90) 100%);
+    height: 0px;
+    width: 10px;
+    filter: blur(1px);
+    transition: 0.3 height;
+    
+}
+
+.lightsaber input[type="checkbox"]:checked ~ .plasma{
+    height: 250px;
+}
