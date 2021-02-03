@@ -3,6 +3,9 @@ input {
   border: 0px;
   background: rgba(0, 0, 0, 0);
 }
+input:focus {
+  border: none;
+}
 body {
   background: #f6fbff;
   display: -webkit-box;
