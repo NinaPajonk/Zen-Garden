@@ -7,3 +7,5 @@ in the case of the colorPicker radiobuttons this was not an option so I used the
 Sources:
 Animated Baby Yoda
 https://codepen.io/Pollard/pen/gObgQdN?editors=0100
+
+Lightsaber: https://scotch.io/bar-talk/build-a-lightsaber-with-css-and-a-checkbox-solution-to-code-challenge-3
