@@ -22,14 +22,14 @@ section[name="lightsaber"] label {
   display: block;
   height: 50px;
   width: 15px;
-  background: #ddd;
+  background: #d0c8be;
   border-bottom: solid 4px gray;
   border-top: solid 4px gray;
   border-radius: 5px;
 }
 
 section[name="lightsaber"] label[name="plasma"] {
-  --saberColor: white;
+  --saberColor: green;
   position: absolute;
   bottom: 64px;
   left: 3px;
@@ -54,31 +54,63 @@ section[name="lightsaber"] label[name="plasma"] {
 section[name="lightsaber"]
   input[type="checkbox"]:checked
   ~ label[name="plasma"] {
-  height: 250px;
+  height: 300px;
+  margin-bottom: -18px;
+  z-index: 10;
 }
 
 /* colorPicker */
-input[data="Blue"]:checked ~ section[name="lightsaber"] label[name="plasma"] {
-  background: rgb(135, 220, 90);
-  background: linear-gradient(
-    to right,
-    rgb(38, 2, 54) 30%,
-    rgb(0, 0, 0) 30%,
-    rgb(255, 5, 5) 50%,
-    rgb(207, 49, 49) 50%,
-    rgb(255, 0, 0) 100%
-  );
+input[type="radio"] {
+  cursor: pointer;
 }
 
-input[data="Blue"]:checked ~ label {
-  --saberColor: blue;
+/* input[type="radio"]:nth-child(0):after {
+  color: blue;
+}
+input[type="radio"]:nth-child(1) {
+  color: orange;
+  position: absolute;
+}
+input[type="radio"]:nth-child(2) {
+  color: Yellow;
+}
+input[type="radio"]:nth-child(3) {
+  color: Green;
+}
+input[type="radio"]:nth-child(4) {
+  color: red;
+} */
+
+input[data="Orange"]:checked ~ label {
+  --saberColor: Orange;
+}
+input[data="Yellow"]:checked ~ label {
+  --saberColor: yellow;
+}
+input[data="Green"]:checked ~ label {
+  --saberColor: Green;
+}
+
+input[data="Red"]:checked ~ label {
+  --saberColor: fireBrick;
 }
 input[data="Blue"]:checked ~ label {
-  --saberColor: blue;
+  --saberColor: Blue;
 }
-input[data="Blue"]:checked ~ label {
-  --saberColor: blue;
+
+ul[name="buttons"] {
+  width: 25px;
+  height: 25px;
+  margin: 2px, 2px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 10px;
+  top: 30vh;
 }
-input[data="Blue"]:checked ~ label {
-  --saberColor: blue;
+label[name="btn"] {
+  padding: 5px 5px;
+  background-color: var(--saberColor);
+  color: var(--saberColor);
+  margin: 10px 10px;
 }
