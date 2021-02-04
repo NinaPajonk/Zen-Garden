@@ -4,6 +4,10 @@
     background-color: black;
     color: navy;
   }
+  section[name="lightsaber"]:after {
+    display: block;
+  }
+
   input[data="Orange"]:checked ~ label {
     --saberColor: rgb(252, 187, 67);
   }
@@ -20,7 +24,7 @@
 
 @media screen and (prefers-color-scheme: light) {
   body {
-    background-color: white;
+    background-color: #ddd;
     color: black;
   }
 }
@@ -30,7 +34,11 @@ input {
   background: rgba(0, 0, 0, 0.719);
 }
 input:focus {
-  border: none;
+  border: 1px dashed white;
+}
+input[name="left-eye"],
+input[name="right-eye"] {
+  color: white;
 }
 body {
   display: -webkit-box;
