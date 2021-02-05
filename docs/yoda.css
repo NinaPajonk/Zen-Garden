@@ -592,3 +592,19 @@ body:hover > header {
   transform: translateY(-7px);
   animation: none;
 }
+
+@media print {
+  body {
+    margin: 2em;
+    background-color:white;
+  
+  }
+
+  input[type="radio"] {
+  visibility: hidden;
+  }
+
+  input[type="radio"][checked="checked"] {
+   visibility: visible;
+  }
+}
