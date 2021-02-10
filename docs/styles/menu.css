@@ -1,15 +1,42 @@
-*{margin: 0;
+*{  
+    margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: #222;
+    background-color: lightgoldenrodyellow;
     min-height: 100vh;
     font-display: grid;
     place-items: center;
-    color: white;
+    color: grey;
     font-family: sans-serif;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  
+}
+p:first-letter {text-transform:uppercase;}
+h3:first-letter {text-transform:uppercase;}
+
+header{
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 900;
+    color: darkslategray;
+
 }
 
+h2{
+    font-size: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+h3{
+    color: darkslategray;
+    padding: 10px;
+  
+}
 h1{
     animation: type 3s steps(17);
     overflow: hidden;
@@ -17,10 +44,9 @@ h1{
     font-size: 80px;
     border-right: 4px solid black;
     width: 2ch;
-text-transform: uppercase;
-text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),     
--0.025em -0.05em 0 rgba(0,255,0,0.75), 
- 0.025em 0.05 0 rgba(0,0,255,0.75),                                                               
+    text-transform: uppercase;
+
+                                                              
 }
 
 @keyframes type {
@@ -30,4 +56,12 @@ text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
     100%{
         width: 21ch;
     }
+}
+#capa_1{
+    width: 150px;
+
+}
+
+article{
+    padding: 10px;
 }
