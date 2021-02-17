@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color: lightgoldenrodyellow;
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url(/docs/assignments/SVG/Download\ free\ image\ of\ Brown\ paper\ background\ text\ space\ 2588336.jpg);
+    background-size: 100%;
+    background-position: top center;
     min-height: 100vh;
     font-display: grid;
     place-items: center;
