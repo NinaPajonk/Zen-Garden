@@ -50,6 +50,10 @@ Een **tweede uitgangspunt** is dat je *geen* JS gebruikt (i.i.g. zo min mogelijk
 Live Demo: 
 ## Opdracht:
 ## Concept:
+### Inspiratie
+
+### Schetsen
+
 ## Contexten
 - Pefer Color Scheme
 - Print Style sheet
