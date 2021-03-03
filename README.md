@@ -1,5 +1,6 @@
 # CSS to the Rescue - Zen Garden
 Live Demo:  https://ninapajonk.github.io/css-to-the-rescue-2021/
+
 < foto eindresultaat>
 
 # Week 1 - Je plan
@@ -8,7 +9,7 @@ Voor de eindopracht heb ik gekozen om aan de slag te gaan met "Zen-garden". Het 
 Om te beginnen heb ik op Pinterest wat rond gekeken naar posters en bestaande menu kaarten. Al snel kwam ik een poster tegen met taarten. En door de inspirende lectures van Vasilis kreeg ik al snel ideeen  om dit stilstaand beeld om te toveren naar iets bewegends. 
 ## Inspiratie:
 
-![Image of pinterest inpso](/images/360DegreesOfCake.jpg)
+![Image of pinterest inpso](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/360%20Degrees%20Of%20Cake.jpg)
 
 ## Schetsen
 Schets 1:
