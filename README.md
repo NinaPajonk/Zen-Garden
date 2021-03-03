@@ -79,7 +79,7 @@ Om het qua huistijl meer bij mijn concept te laten passen heb ik in plaats van d
 
 ![video ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/415468f1-c6fa-4b9f-bc90-e4acb75310b1.MP4)
 
-
+![foto ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/Schermafbeelding%202021-03-03%20om%2003.40.22.png)
 
 # Week 4 - Afronding
 
