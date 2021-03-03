@@ -3,9 +3,7 @@
     body {
         background-image: url(/images/bg_dark.jpg);
     }
-   #bgPlate{
- color: black;
-   }
+
     }
 /* ...................................add light modus css.................................. */
     @media screen and (prefers-color-scheme: light) {
