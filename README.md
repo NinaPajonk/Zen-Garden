@@ -7,11 +7,13 @@ Live Demo:  https://ninapajonk.github.io/css-to-the-rescue-2021/
 Voor de eindopracht heb ik gekozen om aan de slag te gaan met "Zen-garden". Het lijkt mij een hele leuke uitdaging om de HTML van een menu kaart helemaal aan te pakken met puur CSS en deze keer Javascript links te laten liggen. 
 Om te beginnen heb ik op Pinterest wat rond gekeken naar posters en bestaande menu kaarten. Al snel kwam ik een poster tegen met taarten. En door de inspirende lectures van Vasilis kreeg ik al snel ideeen  om dit stilstaand beeld om te toveren naar iets bewegends. 
 ## Inspiratie:
-<img src="/images/360DegreesOfCake.jpg">
+
+![Image of pinterest inpso](/images/360DegreesOfCake.jpg)
 
 ## Schetsen
 Schets 1:
-<img src="/images/schets1.jpg">
+
+![Image of schets 1](/images/schets1.jpg)
 
 De CSS- technieken waar ik mee aan de slag wil gaan:
 - Prefer Color scheme (context)
@@ -54,8 +56,10 @@ Voorbeeld kennismakingsopdracht:
   }
 }
 ```
-<img src="/images/yoda_dark.jpg" alt="darkmodus baby yoda">
-<img src="/images/yoda_light.jpg" alt="lightmodus baby yoda">
+![Image of darkmodus baby yoda](/images/yoda_dark.jpg)
+![Image of lightmodus baby yoda](images/yoda_light.jpg)
+
+
 
 Waar liggen je (grootste) uitdagingen: Ik heb gemerkt dat ik CSS echt meer begin te waarderen. Voorheen gebruikte ik CSS puur alleen voor layout (grids etc.) en nu door onder andere de thema sessies is er een nieuwe wereld voor me open gegaan. De grootste uitdaging ligt het denk ik in de keuzesmaken. Wat ga ik wel toepassen in mijn ontwerp en wat niet... (Misschien in een volgend project de laserstralen toepassen?)
 
