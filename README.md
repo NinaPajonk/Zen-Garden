@@ -14,7 +14,7 @@ Om te beginnen heb ik op Pinterest wat rond gekeken naar posters en bestaande me
 ## Schetsen
 Schets 1:
 
-![Image of schets 1](/images/schets1.jpg)
+![Image of schets 1](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/schets1.JPG)
 
 De CSS- technieken waar ik mee aan de slag wil gaan:
 - Prefer Color scheme (context)
@@ -57,8 +57,8 @@ Voorbeeld kennismakingsopdracht:
   }
 }
 ```
-![Image of darkmodus baby yoda](/images/yoda_dark.jpg)
-![Image of lightmodus baby yoda](images/yoda_light.jpg)
+![Image of darkmodus baby yoda](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/yoda_dark.PNG)
+![Image of lightmodus baby yoda](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/yoda_light.PNG)
 
 
 
@@ -77,7 +77,8 @@ De uitdaging voor volgende week is om verder te gaan met de SVG's. Ik had eerst 
 Mijn SVG's zijn inmiddels allemaal in zn geheel in de HTML gezet, en qua lay-out onder elkaar. Met de tekst ernaast van de Menu kaart vind ik het erg rommelig overkomen en niet fijn lezen. In de HTML zijn de prijzen van gerechten tussen de elementen div gezet. Ik heb hiervoor een span gemaakt, omdat ik dat gepaster vind bij de prijzen. En hierdoor makkelijker met een nieuwe div verder kon stylen dat wanneer je over de SVG's hovert de tekst te voor schijn komt. Dit heb ik gedaan met behulp van een youtube tutorial: https://www.youtube.com/watch?v=HHqBS7xFnPM. 
 Om het qua huistijl meer bij mijn concept te laten passen heb ik in plaats van de rechte vormen die ze in de tutorial gebruiken voor ronde vormen zodat dit ook weer past bij de ronde SVG's. Zie video hieronder, het ging niet meteen de eerste keer soepeltjes: 
 
-video
+![video ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/415468f1-c6fa-4b9f-bc90-e4acb75310b1.MP4)
+
 
 
 # Week 4 - Afronding
