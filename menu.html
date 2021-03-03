@@ -4,44 +4,56 @@
 	<meta charset="utf-8" />
 	<title>Restaurant menu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../styles/menu.css" />
+	<link rel="stylesheet" href="./styles/menu.css" />
 	<!-- SUGGESTIONS FOR STYLING
 	https://duckduckgo.com/?q=beautiful+restaurant+menus&t=ffab&iax=images&ia=images
 	-->
 </head>
 <body>
+
+<header>
+	<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
+  <p>appetizing since 1924</p>
+
+  
+</header>
+
+<main>
+	<nav>
+		<ul> 
+		<li> <a href="#small"> Small Dishes</a> </li>
+		<li> <a href="#boards"> Boards </a></li>
+		<li> <a href="#platters">Platters</a></li>
+		<li> <a href="#eggs">Eggs</a> </li>
+		<li> <a href="#soups"> Soups</a> </li>
+		<li> <a href="#salads">Salads</a></li>
+		<li> <a href="#sweets">Sweets</a></li>
+	</ul>
+	</nav>
+
 	<div class="the-container">
   
 		<input type="checkbox" id="toggle" />
 		<label for="toggle"></label>
 		
 		<div class="day-night-cont">
-			<span class="the-sun"></span>
-			<div class="the-moon"><span class="moon-inside"></span></div>
+	
 		 </div>
-		
-		<div class="switch">
-		  <div class="button">
+ 		
+	 <div class="switch">
+		<div class="button">
+			<div class="b-inside"></div>
 		  </div>
-		</div>
+		</div> 
+	
+		
+	
+		
+	
 
-<header>
-	<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
-  <p>appetizing since 1924</p>
-  
-</header>
 
-<main>
-<nav>
-	<li>Small Dishes</li>
-	<li>Boards</li>
-	<li>Platters</li>
-	<li>Eggs</li>
-	<li>Soups</li>
-	<li>Salads</li>
-	<li>Sweets</li>
-</nav>
-<section>
+
+<section id="small">
 	<header>
 		<h2>Noshes</h2>
 		<p>small dishes</p>
@@ -54,7 +66,7 @@
 	<div class="box">
 	<div class="imgBx"> 
 
-		<svg width="550" height="250" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<svg width="550" height="350" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g id="Desktop - 1">
 			<g id="bgPlate">
 			<path id="BG" d="M808 753C949.385 753 1064 638.385 1064 497C1064 355.615 949.385 241 808 241C666.615 241 552 355.615 552 497C552 638.385 666.615 753 808 753Z" fill="#F7F0E6"/>
@@ -285,7 +297,7 @@
 </section>
 
 
-<section>
+<section id="boards">
 	<header>
 		<h2>boards</h2>
 		<p>open-faced sandwiches</p>
@@ -358,7 +370,7 @@
 </section>
 
 
-<section>
+<section id="platters">
 
 	<header>
 		<h2>platters</h2>
@@ -428,7 +440,7 @@
 </section>
 
 
-<section>
+<section id="eggs">
 
 	<header>
 		<h2>Eggs</h2>
@@ -554,7 +566,7 @@
 </section>
 
 
-<section>
+<section id="soups">
 	<h2>Soup</h2>
 
 <article>
@@ -618,7 +630,7 @@
 	</article>
 
 </section>
-
+<section id="salads"> 
 	<h2>salads</h2>
 
 	<article>
@@ -669,7 +681,7 @@
 </section>
 
 
-<section>
+<section id="sweets"> 
 	<h2>sweet</h2>
 
 	<blockquote>
