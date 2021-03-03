@@ -1,5 +1,5 @@
 # CSS to the Rescue - Zen Garden
-Live Demo:  https://ninapajonk.github.io/Zen-Garden/
+Live Demo:  https://zen-garden-menu.netlify.app/
 
 < foto eindresultaat>
 
