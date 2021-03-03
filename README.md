@@ -1,5 +1,5 @@
 # CSS to the Rescue - Zen Garden
-Live Demo:  https://ninapajonk.github.io/css-to-the-rescue-2021/
+Live Demo:  https://ninapajonk.github.io/Zen-Garden/
 
 < foto eindresultaat>
 
