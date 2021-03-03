@@ -1,3 +1,21 @@
+  /* ..................................ADD DARK MODUS CSS.................................. */
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+        background-image: url(/images/bg_dark.jpg);
+    }
+   #bgPlate{
+ color: black;
+   }
+    }
+/* ...................................add light modus css.................................. */
+    @media screen and (prefers-color-scheme: light) {
+        body {
+            background-image: url(/images/bg.jpg);
+   
+        }
+      }
+  
+
 *{  
     margin: 0;
     padding: 0;
@@ -22,6 +40,7 @@ h2{
     text-transform: uppercase;
     color: #fff;
     text-align: center;
+    padding: 20px;
 
 }
 h3{
@@ -33,14 +52,36 @@ h3{
 }
 p{
     text-align: center;
+    padding: 10px;
   
+}
+/*..................................quotes..................................*/
+blockquote{
+font-family: 'Courier New', Courier, monospace;
+float: left;
+position: absolute;
+width: 100%;
+color: skyblue;
+font-weight: 900;
+background-color: tomato;
+border-radius: 30px;
+padding: 10px;
+text-align: center;
+
+}
+
+ /*..................................SVG..................................*/
+main svg:first-child{
+    width: 100%;
+    display: block;
 }
 
 /*..................................NAVIGATIE..................................*/
 
 nav{
     position: fixed; 
-   
+    bottom: 0;
+  
 
 }
 
@@ -81,6 +122,7 @@ h1{
     width: 2ch;
     text-transform: uppercase;
   text-align: center;
+
                                                               
 }
 
@@ -108,10 +150,11 @@ header{
     width: 500px;
     height: 350px;
     margin: auto;
-    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+top: 130vh;
+
   }
   
 
@@ -204,78 +247,28 @@ header{
 }
   
 
-  /* ..................................ADD DARK MODUS CSS.................................. */
-@media screen and (prefers-color-scheme: dark) {
-    body {
-        background-image: url(/images/bg_dark.jpg);
-    }
-   #bgPlate{
- color: black;
-   }
-    }
-/* ...................................add light modus css.................................. */
-    @media screen and (prefers-color-scheme: light) {
-        body {
-            background-image: url(/images/bg.jpg);
-   
-        }
-      }
-  
-
-
-
-/*borden met eten SVG's*/
-
-/* img {
-   width: 300px;
-    } */
-
-svg
-    {
-    width: 800px;
-    margin: 0;
-    }
-
-/* svg:hover{
-    transform: rotate(90deg);
-    transition: transform 1s ease-in-out;
-}
-/*
-img:hover{
-    transform: rotate(90deg);
-    transition: transform 1s ease-in-out;
-  
-} */
-
-/* source:  https://www.youtube.com/watch?v=HHqBS7xFnPM */
+/* hover articles - source:  https://www.youtube.com/watch?v=HHqBS7xFnPM */
 article
     {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     transform-style: preserve-3d;
-    width: 600px;
     font-size: 14px;
     text-align: center;
+    margin: -50px;
+
     }
 
-article div
-    {
-    padding: 10px;
-    }
-
-    /* article .contextBx{
-        visibility: hidden;
-    } */
 
     article .card
         {
          position: relative;
-         width: 320px;
-         height: 320px;
+         width: 300px;
+         height: 300px;
          transform-style: preserve-3d;
         perspective: 800px;
+     
 
         }
 
@@ -353,7 +346,7 @@ article div
     article .card .box .contextBx p
         {
         color: skyblue;
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
         }
 
@@ -370,6 +363,7 @@ article div
         background: linear-gradient(10deg, pink, lightgoldenrodyellow);
         transform: translateZ(100px);
         border-radius: 500px;
+        padding: 10px;
         }
 
     article .contextBx h3
@@ -377,4 +371,4 @@ article div
         margin-top: 25px;
         }
 
-    
+   
