@@ -92,11 +92,12 @@ In mijn concept heb ik op het laatste moment voor gekozen om toch een navigatie 
 
 Naast de context: Prefer color scheme, leek het mij ook leuk dat je handmatig op de site zelf door middel van de toggle de kleuren modus kon aanpassen. Zodat je niet hiervoor je systeem instelling hoefde aan te passen. Wanneer de toggle "switched" wordt de roze ronde knop bij dark modus iets donkerder. Ik heb gekozen voor een subtiele overgang van de toggle zelf omdat de achtergrond en de SVG's al mee veranderen. 
 
-MOET NOG GEDAAN WORDEN:
+()MOET NOG GEDAAN WORDEN:
 Responsive zonder Media queries, hier voor heb ik wat onderzoek gedaan en kwam ik de techniek Clamp tegen. Ook dit heb ik nog niet eerder gebruikt. Source: https://www.youtube.com/watch?v=CICYdO0g8Ew
 
-MOET NOG GEDAAN WORDEN:
+()MOET NOG GEDAAN WORDEN:
 SVG's animeren. 
 ![foto ](https://github.com/NinaPajonk/Zen-Garden/blob/master/images/newSVG.png)
-source: https://www.youtube.com/watch?v=KLU4PUd7N14&t=933s
+Ook wil ik op deze SVG nog een filter toepassen
+https://www.youtube.com/watch?v=Hv30tr92Goo&t=433s
 
