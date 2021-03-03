@@ -1,9 +1,17 @@
+# CSS to the Rescue - Zen Garden
+Live Demo: 
+
 # Week 1 - Je plan
 Welke opdracht ga je doen en voor welke opties kies je qua uitwerking.
 Met welke CSS-technieken ga je als eerste aan de slag.
 Waar liggen je (grootste) uitdagingen.
 Neem schets(en) van je ontwerp op.
 Maak wellicht ook al een eerste breakdown-schets.
+
+Inspiratie:
+<img src="docs/images/SVG/360 Degrees Of Cake.jpg">
+
+
 # Week 2  - Voortgang
 Laat je voortgang zien ('praatje met plaatjes').
 Wat ging er soepel en wat was lastig.
@@ -29,3 +37,4 @@ Wat ging er soepel , wat was lastig en waar ben je trots op.
 Welke experimenten heb je gedaan die die 'mislukt' zijn.
 Heb je nieuwe inzichten hoe je de kracht CSS kunt benutten (of juist niet).
 Waar wil je meer mee gaan doen.
+
