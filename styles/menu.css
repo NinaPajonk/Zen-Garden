@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/docs/Zen\ Garden/images/bg.jpg);
+    background-image: url(/images/bg.jpg);
     background-size: 100%;
     color:#fff;
     font-family: sans-serif;
@@ -200,14 +200,14 @@ header{
   }
 
   input[type=checkbox]:checked ~ body{
-     background-image: url(/docs/Zen\ Garden/images/bg_dark.jpg);
+    background-image: url(/images/bg_dark.jpg);
 }
   
 
   /* ..................................ADD DARK MODUS CSS.................................. */
 @media screen and (prefers-color-scheme: dark) {
     body {
-        background-image: url(/docs/Zen\ Garden/images/bg_dark.jpg);
+        background-image: url(/images/bg_dark.jpg);
     }
    #bgPlate{
  color: black;
@@ -216,7 +216,7 @@ header{
 /* ...................................add light modus css.................................. */
     @media screen and (prefers-color-scheme: light) {
         body {
-            background-image: url(/docs/Zen\ Garden/images/bg.jpg);
+            background-image: url(/images/bg.jpg);
    
         }
       }
