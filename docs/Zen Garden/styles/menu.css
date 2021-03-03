@@ -7,14 +7,11 @@
 body{
     background-image: url(/docs/Zen\ Garden/images/bg.jpg);
     background-size: 100%;
-    background-position: top center;
-    font-display: grid;
     color:#fff;
     font-family: sans-serif;
 
-
 }
-
+/*..................................Start zin met hoofdletter..................................*/
 p:first-letter {text-transform:uppercase;}
 h3:first-letter {text-transform:uppercase;}
 
@@ -36,13 +33,14 @@ h3{
 }
 p{
     text-align: center;
+  
 }
 
-/*NAVIGATIE*/
+/*..................................NAVIGATIE..................................*/
 
 nav{
     position: fixed; 
-
+   
 
 }
 
@@ -73,7 +71,7 @@ nav a:hover{
 
 
 
-/*TITEL ANIMATION*/
+/*..................................TITEL ANIMATION..................................*/
 h1{
     animation: type 3s steps(17) infinite;
     overflow: hidden;
@@ -83,7 +81,6 @@ h1{
     width: 2ch;
     text-transform: uppercase;
   text-align: center;
-
                                                               
 }
 
@@ -102,6 +99,130 @@ header{
    
 
 }
+/*.......................TOGGLE DARKMODUS source: https://codepen.io/AngelaVelasquez/pen/cihEG..................................  */
+/*.................................. DAY STYLE..................................*/
+
+  .the-container{
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+
+  
+  input[type=checkbox] {
+      position: absolute;
+      visibility: hidden;
+  }
+  
+   input#toggle[type=checkbox]{
+       display:none;
+   }
+  
+  
+  label {
+      position: absolute;
+      height: 40px;
+      width: 120px;
+      display: block; 
+      top: 0px; bottom: 0; right: 0; left:0;
+      z-index: 9999;
+      cursor: pointer;
+      margin: 0 auto;
+  }
+  
+  .switch {
+    display: block; 
+    position: relative;
+    border-bottom: 1px solid #FFF;
+    border-radius: 25px;
+    background:   rgb(14, 133, 97);
+    height: 40px;
+    width: 100px;
+    margin: 0px auto 30px auto;
+  }
+  
+  .switch .button{
+    display: block; 
+    position: absolute;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #AAA;
+    border-radius: 100%;
+    background: palevioletred;
+    height: 32px; 
+    width: 32px;
+    top: 4px;
+    left: 4px;
+
+  }
+  
+  .switch .button .b-inside{
+    display: block; 
+    position: absolute;
+    border: 1px solid #888;
+    border-radius: 100%;
+    background: pink;
+    height: 15px; 
+    width: 15px;
+    top: 7px;
+    left: 7px;
+
+  }
+  
+  .day-night-cont {
+    display: block;
+    position: absolute;
+    width: 180px;
+    margin: 0 auto;
+    left: 0; right: 0; top: 0; bottom:0;
+    height: 40px;
+    top: 0px;
+  }
+  
+
+  /*.................................. TOGGLE ..................................*/
+  
+  .switch .button {
+      transition: left .25s ease-in-out;
+      -webkit-transition: left .25s ease-in-out;
+  }
+  
+  input[type=checkbox]:checked ~ .switch .button {
+      position: absolute;
+      left: 64px;
+      background: rgb(190, 85, 103);
+  }
+
+  input[type=checkbox]:checked ~ body{
+     background-image: url(/docs/Zen\ Garden/images/bg_dark.jpg);
+}
+  
+
+  /* ..................................ADD DARK MODUS CSS.................................. */
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-image: url(/docs/Zen\ Garden/images/bg_dark.jpg);
+    }
+   #bgPlate{
+ color: black;
+   }
+    }
+/* ...................................add light modus css.................................. */
+    @media screen and (prefers-color-scheme: light) {
+        body {
+            background-image: url(/docs/Zen\ Garden/images/bg.jpg);
+   
+        }
+      }
+  
+
+
 
 /*borden met eten SVG's*/
 
@@ -119,6 +240,7 @@ svg
     transform: rotate(90deg);
     transition: transform 1s ease-in-out;
 }
+/*
 img:hover{
     transform: rotate(90deg);
     transition: transform 1s ease-in-out;
@@ -255,4 +377,4 @@ article div
         margin-top: 25px;
         }
 
-
+    
