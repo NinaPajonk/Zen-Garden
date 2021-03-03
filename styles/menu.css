@@ -74,6 +74,30 @@ text-align: center;
 main svg:first-child{
     width: 100%;
     display: block;
+
+
+}
+path{ 
+fill-opacity: 0;
+stroke: #fff;
+stroke-width: 3px;
+stroke-dashoffset: 0;
+stroke-dasharray: 2300;
+
+}
+
+#heart{
+    animation: 6s ease-out;
+}
+
+@keyframes path{
+
+0%{
+    stroke-dashoffset: 1700;
+}
+100%{
+    stroke-dashoffset: 0;
+}
 }
 
 /*..................................NAVIGATIE..................................*/
