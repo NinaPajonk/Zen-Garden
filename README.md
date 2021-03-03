@@ -78,8 +78,9 @@ Mijn SVG's zijn inmiddels allemaal in zn geheel in de HTML gezet, en qua lay-out
 Om het qua huistijl meer bij mijn concept te laten passen heb ik in plaats van de rechte vormen die ze in de tutorial gebruiken voor ronde vormen zodat dit ook weer past bij de ronde SVG's. Zie video hieronder, het ging niet meteen de eerste keer soepeltjes: 
 
 ![video ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/415468f1-c6fa-4b9f-bc90-e4acb75310b1.MP4)
-
+Bij onderstaannde screenshot heb ik de svg helemaal ingeladen in de HTML. Hierdoor ging de draai met menu elementen "stuk"
 ![foto ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/Schermafbeelding%202021-03-03%20om%2003.40.22.png)
+Bij onderstaannde screenshot heb ik de svg als img ingeladen, zodat de draai wel werkte. Voor de restrictie SVG's heb ik een nieuw idee bedacht. Zie Week 4. 
 ![foto ](https://github.com/NinaPajonk/Zen-Garden/blob/master/images/part2.png)
 ![foto ](https://github.com/NinaPajonk/Zen-Garden/blob/master/images/part3.png)
 
