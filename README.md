@@ -79,13 +79,13 @@ Om het qua huistijl meer bij mijn concept te laten passen heb ik in plaats van d
 
 ![video ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/415468f1-c6fa-4b9f-bc90-e4acb75310b1.MP4)
 
-
+![foto ](https://github.com/NinaPajonk/css-to-the-rescue-2021/blob/zen_garden/images/Schermafbeelding%202021-03-03%20om%2003.40.22.png)
 
 # Week 4 - Afronding
 
 Na de laatste themasessie accessibility, de voorbeelden die we te zien kregen over grote/bekende bedrijven die op hun site de toegankelijkheid niet op orde hadden. En hoe moeilijk het dan voor gebruikers kan zijn om bijvoorbeeld simpel door een website te navigeren verbaasde mij enorm. Als ik meer tijd had gehad, had ik dat zeker nog willen toepassen in mijn eigen concept, die nu nog niet zo gebruiksvriendelijk is. 
 
-In mijn concept heb ik er in de laatste week voor gekozen om toch een navigatie toe te voegen. Het plan in het begin was eigenlijk om alles in een window te proppen en dat de SVG's dus erg uitgezoomd waren. Pas wanneer je er over heen hoverde was het de bedoeling dat het door middel van scale vele malen groter zou worden. Dit is mij niet gelukt om voor elkaar te krijgen waardoor ik dus last minute voor een navigatie bar heb gekozen die op elk moment op de pagina zichtbaar is. Position: fixed;
+In mijn concept heb ik op het laatste moment voor gekozen om toch een navigatie toe te voegen. Het plan in het begin was eigenlijk om alles in een window te proppen en dat de SVG's dus erg uitgezoomd waren. Pas wanneer je er over heen hoverde was het de bedoeling dat het door middel van scale vele malen groter zou worden. Dit is mij niet gelukt om voor elkaar te krijgen waardoor ik dus last minute voor een navigatie bar heb gekozen die op elk moment op de pagina zichtbaar is. Position: fixed;
 
 Naast de context: Prefer color scheme, leek het mij ook leuk dat je handmatig op de site zelf door middel van de toggle de kleuren modus kon aanpassen. Zodat je niet hiervoor je systeem instelling hoefde aan te passen. Wanneer de toggle "switched" wordt de roze ronde knop bij dark modus iets donkerder. Ik heb gekozen voor een subtiele overgang van de toggle zelf omdat de achtergrond en de SVG's al mee veranderen. 
 
